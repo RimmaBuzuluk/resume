@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    background-color: #ffffff;
+    width: 75%;
+
+    display: flex;
+}
+
+.main_information{
+    width: 34.11%;
+    background-color: #c5c5c5;
+}
