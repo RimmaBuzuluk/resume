@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -9,8 +14,139 @@ main{
 
     display: flex;
 }
-
+/* ///////////////////////////////////////////////////// */
 .main_information{
     width: 34.11%;
-    background-color: #c5c5c5;
+    background-color: #c5c5c5;    
+    padding: 5%;
+    
+}
+
+.img_block{
+    display: flex;
+    justify-content: center; 
+}
+
+.image {
+  width: 100%; 
+  padding-top: 100%; 
+  border-radius: 75%; 
+  background-image: url('https://bipbap.ru/wp-content/uploads/2021/07/1-44.jpg');
+  background-size: cover; 
+ 
+}
+
+.image img {
+    max-width: 100%; 
+}
+
+/* /////////////////////////////// */
+.heading{
+    color: #280BDB;
+    font-size:30px;
+    
+}
+
+/* ///////////////////////// */
+
+
+.information{
+    width: 100%;
+}
+.main_block{
+    background-color: #ECECEC;
+    padding: 5%;
+}
+
+.main_name{
+   color: #280BDB; 
+   font-size: 450%;
+   font-weight: bold;
+}
+
+.main_position{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+@media(max-width:1700px){
+    .main_name{ 
+        font-size: 250%;
+     }
+     .main_position{
+        font-size: 180%;
+        
+    }
+}
+@media(max-width:900px){
+    .main_name{ 
+        font-size: 180%;
+     }
+     .main_position{
+        font-size: 120%;
+    }
+}
+
+@media(max-width:600px){
+    .main_name{ 
+        font-size: 120%;
+     }
+     .main_position{
+        font-size: 100%;
+    }
+}
+
+
+/* /////////////////////////////////////// */
+
+.block{
+    margin: 5% 0 0 5%;
+}
+.block_name{
+   color: #280BDB;
+   font-size: 100%;
+   font-weight: bold;
+}
+
+.block_information{
+    display: flex;
+    margin: 5% 0 0 1%;
+}
+
+.line_circle{
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.line{
+    width: 2px;
+    height: 100px;
+    background-color: black;
+    
+}
+.circle{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    
+}
+
+.text-inform{
+    margin-left: 5%;
+}
+
+.item-inform{
+    margin-bottom: 10%;
+}
+
+.year_inform{
+    color: #280BDB;
+}
+
+.name_inform{
+    font-weight: bold;
 }
