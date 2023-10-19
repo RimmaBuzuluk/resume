@@ -44,7 +44,28 @@ main{
 .heading{
     color: #280BDB;
     font-size:30px;
-    
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+/* //////////////////////////////////////// */
+.contact_block{
+    margin-top: 10%;
+}
+
+.contact_name{
+    color: black;
+    font-weight: bold;
+}
+
+/* //////////////////////////////////////// */
+.languages_block{
+    margin-top: 10%;
+}
+
+.languages_name{
+    color: black;
+    font-weight: bold;
 }
 
 /* ///////////////////////// */
@@ -114,7 +135,7 @@ main{
 }
 
 .line_circle{
-    width: 10px;
+    width: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,7 +144,7 @@ main{
 
 .line{
     width: 2px;
-    height: 100px;
+    height: 50%;
     background-color: black;
     
 }
@@ -137,6 +158,7 @@ main{
 
 .text-inform{
     margin-left: 5%;
+    font-size: 100%;
 }
 
 .item-inform{
