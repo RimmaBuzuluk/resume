@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 200%;
 }
 
 main{
@@ -17,10 +17,47 @@ main{
 /* ///////////////////////////////////////////////////// */
 .main_information{
     width: 34.11%;
+    height: au;
     background-color: #c5c5c5;    
     padding: 5%;
     
 }
+
+@media(max-width:600px){
+    .main_information{
+        display: none;
+    }
+}
+/* __________________________ */
+.burger{
+    margin-right: 10%;
+    width: 50px;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.burger__button{
+    
+    background-color: gray;
+    border-radius: 10%;
+}
+
+.burger__button:hover{
+    background-color: #c5c5c5;
+}
+.burger_line{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 5px 5px 5px;;
+}
+
+@media(min-width:600px){
+    .burger{
+        display: none;
+    }
+}
+/* ________________________ */
 
 .img_block{
     display: flex;
@@ -43,30 +80,77 @@ main{
 /* /////////////////////////////// */
 .heading{
     color: #280BDB;
-    font-size:30px;
+    font-size:100%;
     margin-top: 20%;
     font-weight: bold;
 }
 
+.information{
+    font-size: 90%;
+    margin: 5% 0 5% 0;
+}
+
+@media(max-width:1700px){
+    .heading{ 
+        font-size: 80%;
+     }
+     .information{
+        font-size: 65%;
+    }
+} 
+
+@media(max-width:900px){
+    .heading{ 
+        font-size: 60%;
+     }
+     .information{
+        font-size: 45%;
+    }
+} 
+
+@media(max-width:600px){
+    .heading{ 
+        font-size: 80%;
+     }
+     .information{
+        font-size: 50%;
+    }
+} 
+
+
 /* //////////////////////////////////////// */
-.contact_block{
+/* .contact_block{
     margin-top: 10%;
 }
 
 .contact_name{
     color: black;
     font-weight: bold;
+} */
+
+/* .information{
+    font-size: 100%;
 }
+@media(max-width:1700px){
+    .information{ 
+        font-size: 60%;
+     }
+}
+@media(max-width:900px){
+    .information{ 
+        font-size: 40%;
+     }
+} */
 
 /* //////////////////////////////////////// */
-.languages_block{
+/* .languages_block{
     margin-top: 10%;
 }
 
 .languages_name{
     color: black;
     font-weight: bold;
-}
+} */
 
 /* ///////////////////////// */
 
@@ -81,7 +165,7 @@ main{
 
 .main_name{
    color: #280BDB; 
-   font-size: 450%;
+   font-size: 300%;
    font-weight: bold;
 }
 
@@ -92,7 +176,7 @@ main{
 
 @media(max-width:1700px){
     .main_name{ 
-        font-size: 250%;
+        font-size: 200%;
      }
      .main_position{
         font-size: 180%;
@@ -101,19 +185,19 @@ main{
 }
 @media(max-width:900px){
     .main_name{ 
-        font-size: 180%;
+        font-size: 150%;
      }
      .main_position{
-        font-size: 120%;
+        font-size: 150%;
     }
 }
 
 @media(max-width:600px){
     .main_name{ 
-        font-size: 120%;
+        font-size: 350%;
      }
      .main_position{
-        font-size: 100%;
+        font-size: 200%;
     }
 }
 
@@ -128,7 +212,7 @@ main{
    font-size: 100%;
    font-weight: bold;
 }
-
+/* //////////////////////////////////// */
 .block_information{
     display: flex;
     margin: 5% 0 0 1%;
@@ -148,7 +232,7 @@ main{
     background-color: black;
     
 }
-.circle{
+ .circle{
     background-color: black;
     width: 10px;
     height: 10px;
@@ -156,10 +240,17 @@ main{
     
 }
 
+/* /////////////////////////// */
+
 .text-inform{
     margin-left: 5%;
     font-size: 100%;
 }
+
+.information_text{
+    font-size: 100%;
+}
+
 
 .item-inform{
     margin-bottom: 10%;
@@ -171,4 +262,5 @@ main{
 
 .name_inform{
     font-weight: bold;
+    
 }
