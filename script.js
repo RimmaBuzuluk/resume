@@ -5,7 +5,7 @@ burgerButton.addEventListener('click', function(){
     if(informationBlock.style.display === 'none' || informationBlock.style.display === ''){
         informationBlock.style.display = 'block';
         informationBlock.style.position = 'absolute';
-        informationBlock.style.width = '50%';
+        // informationBlock.style.width = '20%';
 
         
         //тут додати ширину 50%
